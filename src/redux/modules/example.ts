@@ -9,7 +9,7 @@ interface ExampleState {
 const initialState: ExampleState = {
   example1: "",
   example2: 0,
-  example3: true,
+  example3: false,
 };
 
 export const exampleSlice = createSlice({
