@@ -1,5 +1,6 @@
-import { combineReducers } from "redux";
-import example from "./example";
+import { combineReducers } from 'redux';
+
+import example from './example';
 
 const rootReducer = combineReducers({
   example,
@@ -7,8 +8,7 @@ const rootReducer = combineReducers({
 
 export default rootReducer;
 
-export type RootState = ReturnType<typeof rootReducer>;
-
 //////////////////////////////////////////////////////////////
+export * from './example';
 
-export * from "./example";
+export type RootState = ReturnType<typeof rootReducer>;
