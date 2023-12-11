@@ -9,7 +9,9 @@ const Example = () => {
     (state: RootState) => state.example.value
   );
 
-  const dispatch = useDispatch();
+  const dispatch = useDisp;
+
+  atch();
 
   return (
     <div>
